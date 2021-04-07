@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opa! Boum?</title>
+    <style>
+        body{
+            background-color: rgb(235, 152, 52);
+            color: rgb(247, 218, 57); /*Comentário em CSS*/
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Falaa glr!</h1>
+    <h2>Olá, Mundo! (quase esqueci)</h2>
+    <p>Aprendendo aqui os primeiros passos em JavaScript.
+     <p>Aprendi o comando</p>
+     <pre><code>
+window.alert('Mensagem')
+window.confirm('Confirmação') 
+window.prompt('Pergunta')
+     </code></pre>
+    </p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número:'))
+        var n2 = Number.parseInt(window.prompt('Digite outro número:'))
+        var s = n1 + n2
+        window.alert('A soma entre '+ n1 +' e '+ n2 +' é igual a '+ s +' !')
+        // (number + number) para adição
+        // (string + string) para concatenação
+    </script>
+</body>
+</html>

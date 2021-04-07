@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background: rgb( 68,125,199);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div>Clique aqui</div>
+    <div id='mensagem2'>Clique aqui 2</div>
+    <div class='mensagem3'>Clique aqui 3</div>
+    <script>
+        /*window.document.write(window.document.charset)
+        window.document.write(window.navigator.appName)
+        window.document.write(window.document.URL)*/
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var p2 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('mensagem2')
+        var d1 = window.document.getElementsByClassName('mensagem3')[0]
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando ...'
+        p1.style.color = 'blue'
+        corpo.style.background = 'black'
+        d1.style.background = 'red'; d1.innerHTML = 'Ish'
+        /*window.document.write(p1.innerText)
+        window.document.write(p2.innerHTML) - Formatado 
+        window.document.write(d.innerText) */
+        //window.alert(p1)
+    </script>
+</body>
+</html>
