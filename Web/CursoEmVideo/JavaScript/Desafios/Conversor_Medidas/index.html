@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medidas</title>
+  <style>
+    input{
+      padding: 20px;
+      font-size: 18px;
+      margin: 25px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Conversor de Medidas</h1>
+  <input type="button" value="Converter" onclick="conv()">
+  <div id="res">
+    &UpArrow; Clique no botão acima para iniciar &UpArrow;
+  </div>
+  
+  <script>
+    function conv(){
+      let res = document.getElementById('res'),
+      dist = parseFloat(prompt('Digite uma distância em (m)'))
+      res.innerHTML = `<h1>A distância de ${dist} metros, corresponde a...</h1>`
+      res.innerHTML += `<h3> ${(dist / 1000).toFixed(3)} quilômetros (Km)</h3>`
+      res.innerHTML += `<h3> ${(dist / 100).toFixed(3)} hectômetros (Hm)</h3>`
+      res.innerHTML += `<h3> ${dist / 10} decâmetros (Dam)</h3>`
+      res.innerHTML += `<h3> ${dist * 10} decímetros (dm)</h3>`
+      res.innerHTML += `<h3> ${dist * 100} centímetros (cm)</h3>`
+      res.innerHTML += `<h3> ${dist * 1000} milímetros (mm)</h3>`
+    }
+  </script>
+</body>
+</html>

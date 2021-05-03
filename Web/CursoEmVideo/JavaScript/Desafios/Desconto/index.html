@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desconto</title>
+  <style>
+    input{
+      cursor: pointer;
+      margin: 20px;
+      font-size: 18px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calcular Desconto</h1>
+  <input type="button" value="Desconto 10%" onclick="desc10()">
+  <input type="button" value="Desconto 25%" onclick="desc25()">
+  <input type="button" value="Desconto 50%" onclick="desc50()">
+
+  <div id="res">
+
+  </div>
+  <script>
+    var res = document.getElementById('res'),
+    desc = 0,
+    tot = 0
+    function desc10(){
+      let nome = prompt('Qual o produto que você está comprando?'),
+      valor = parseFloat(prompt(`Qual é o preço do ${nome} ?`))
+      desc = valor * 10/100
+      tot = (valor - desc).toFixed(2)
+      res.innerHTML = `<h1>Calculando desconto de 10% para ${nome}...</h1>`
+      res.innerHTML += `<h3>O preço original era R$ ${valor.toFixed(2)}</h3>`
+      res.innerHTML += `<h3>Você acaba de ganhar R$ ${desc.toFixed(2)} de desconto (-10%)<h3>`
+      res.innerHTML += `<h3>No fim, você vai pagar R$ ${tot} no produto ${nome}<h3>`
+    }
+    function desc25(){
+      let nome = prompt('Qual o produto que você está comprando?'),
+      valor = parseFloat(prompt(`Qual é o preço do ${nome} ?`))
+      desc = valor * 25/100
+      tot = (valor - desc).toFixed(2)
+      res.innerHTML = `<h1>Calculando desconto de 25% para ${nome}...</h1>`
+      res.innerHTML += `<h3>O preço original era R$ ${valor.toFixed(2)}</h3>`
+      res.innerHTML += `<h3>Você acaba de ganhar R$ ${desc.toFixed(2)} de desconto (-25%)<h3>`
+      res.innerHTML += `<h3>No fim, você vai pagar R$ ${tot} no produto ${nome}<h3>`
+    }
+    function desc50(){
+      let nome = prompt('Qual o produto que você está comprando?'),
+      valor = parseFloat(prompt(`Qual é o preço do ${nome} ?`))
+      desc = valor * 50/100
+      tot = (valor - desc).toFixed(2)
+      res.innerHTML = `<h1>Calculando desconto de 50% para ${nome}...</h1>`
+      res.innerHTML += `<h3>O preço original era R$ ${valor.toFixed(2)}</h3>`
+      res.innerHTML += `<h3>Você acaba de ganhar R$ ${desc.toFixed(2)} de desconto (-50%)<h3>`
+      res.innerHTML += `<h3>No fim, você vai pagar R$ ${tot} no produto ${nome}<h3>`
+    }
+  </script>
+</body>
+</html>
