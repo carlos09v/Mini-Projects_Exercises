@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preço_Mudou</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Preço Mudou</h1>
+  <input type="button" value="Verificar" onclick="preco()">
+
+  <div id="res">
+    <h3>Clique no botão acima para analisar a mudança de preço.</h3>
+  </div>
+  <script>
+    function preco(){
+      let res = document.getElementById('res'),
+      valor_ante = parseFloat(prompt('Qual o preço anterior do produto?')),
+      valor_atual = parseFloat(prompt('Qual o preço atual do produto?')),
+      tot = valor_ante + valor_atual
+      res.innerHTML = '<h2>Analisando os valores informados...</h2>'
+      res.innerHTML += `<h3>O produto custava R$ ${valor_ante.toFixed(2)} e agora custa R$ ${valor_atual.toFixed(2)}</h3>`
+      if(valor_ante > valor_atual){
+        res.innerHTML += '<h3>Hoje o produto está mais barato !</h3>'
+        res.innerHTML += `<h3>O preço caiu R$ ${(valor_ante - valor_atual).toFixed(2)} em relação ao preço anterior !</h3>`
+        res.innerHTML += `<h3>Uma variação de ... pra baixo !</h3>`
+      }else{
+        res.innerHTML += '<h3>Hoje o produto está mais caro !</h3>'
+        res.innerHTML += `<h3>O preço subiu R$ ${(valor_atual - valor_ante).toFixed(2)} em relação ao preço anterior !</h3>`
+        res.innerHTML += `<h3>Uma variação de ... pra cima !</h3>`
+      }
+      
+
+    }
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperatura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Conversor de Temperatura</h1>
+  <input type="button" value="Converter" onclick="conv()">
+  
+  <div id="res">
+    <h3>&UpArrow; Clique em cima para CONVERTER &UpArrow;</h3>
+  </div>
+  <script>
+    function conv(){
+      let res = document.getElementById('res'),
+      temp = parseFloat(prompt('Digite uma temperatura em °C'))
+      res.innerHTML = `<h2>A temperatura ${temp}°C corresponde a...</h2>`
+      res.innerHTML += `<h3>${temp + 273.15}°K (Kelvin)`
+      res.innerHTML += `<h3>${(temp * 9/5) + 32}°F (Fahrenheit)</h3>`
+    }
+  </script>
+</body>
+</html>

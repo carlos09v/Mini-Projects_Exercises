@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reajuste Salarial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Reajuste Salarial</h1>
+  <input type="button" value="Reajustar" onclick="reaj()">
+  <div id="res">
+    <h3>Clique no Botão acima para Iniciar.</h3>
+  </div>
+  <script>
+    function reaj(){
+      let res = document.getElementById('res'),
+      nome = prompt('Qual o nome do funcionário?'),
+      sal = parseFloat(prompt(`Qual o salário do(a) ${nome}?`)),
+      porc = parseInt(prompt(`O salário do(a) ${nome} vai ser reajustado em qual porcentagem?`)),
+      aumen = (sal * porc) / 100
+      res.innerHTML = `<h1>${nome} recebeu um aumento salarial!</h1>`
+      res.innerHTML += `<h3>O salário atual era R$ ${sal.toFixed(2)} .</h3>`
+      res.innerHTML += `<h3>Com um aumento de ${porc}% , o salário vai aumentar R$ ${aumen.toFixed(2)} no próximo mês .</h3>`
+      res.innerHTML += `<h3>${nome} vai passar a ganhar R$ ${(sal + aumen).toFixed(2)} !</h3>`
+    }
+  </script>
+  
+</body>
+</html>

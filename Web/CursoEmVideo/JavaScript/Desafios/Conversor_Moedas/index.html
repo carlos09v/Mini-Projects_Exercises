@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConvMoeda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Conversor R$ &RightArrow; US$</h1>
+  <input type="button" value="Converter" onclick="conv()">
+
+  <div id="res">
+    <h3>&UpArrow; Clique em cima para CONVERTER &UpArrow;</h3>
+  </div>
+  <script>
+    function conv(){
+      let res = document.getElementById('res'),
+      dolar = parseFloat(prompt('Primeiramente, quanto está o dólar atualmente?')),
+      valor = parseFloat(prompt('Ish, triste neh! Agora, quantos R$ você tem na carteira?'))
+      res.innerHTML = '<h2>Convertendo...</h2>' 
+      res.innerHTML += `<h3> R$${valor.toFixed(2)} ÷ US$${dolar.toFixed(2)} = US$ ${(valor / dolar).toFixed(2)} `
+      
+    }
+  </script>
+</body>
+</html>

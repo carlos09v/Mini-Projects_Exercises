@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troco</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculando o Troco</h1>
+  <input type="button" value="Comprar Produto" onclick="troco()">
+  <div id="res">
+    <h3>Clique no botão acima.</h3>
+  </div>
+  <script>
+    function troco(){
+      let res = document.getElementById('res'),
+      nome = prompt('Que produto você está comprando?'),
+      tot = parseFloat(prompt(`Quanto custa o ${nome} ?`)),
+      valor = parseFloat(prompt(`Qual valor você deu para pagar o ${nome} ?`))
+      res.innerHTML = `<h3>Você comprou um ${nome} que custa R$ ${tot.toFixed(2)}</h3>`
+      res.innerHTML += `<h3>Deu R$ ${valor.toFixed(2)} em dinheiro, e vai receber R$ ${(valor - tot).toFixed(2)} de troco !</h3>`
+      res.innerHTML += `<h3>Volte sempre !</h3>`
+    }
+  </script>
+  
+</body>
+</html>
