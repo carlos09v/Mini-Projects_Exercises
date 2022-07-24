@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        col.cgrupo {
+            background-color: yellow;
+        }
+
+        col.cprof {
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro Lima</td>
+            <td>M</td>
+            <td>69</td>
+            <td>Aposentado</td>
+        </tr>
+        <tr>
+            <td>Antonio Nunes</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Jogador de F.</td>
+        </tr>
+        <tr>
+            <td>Solange</td>
+            <td>F</td>
+            <td>41</td>
+            <td>Empresária</td>
+        </tr>
+        <tr>
+            <td>Clementina</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Costureira</td>
+        </tr>
+        <tr>
+            <td>Enzo</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Vinicius</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
