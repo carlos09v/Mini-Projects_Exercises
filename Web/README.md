@@ -5,7 +5,7 @@
 <h4><li>Ultimos exercícios - </li></h4>
 <img src="https://github.com/carlos09v/Mini-Projects_Exercises/blob/main/Web/CursoEmVideo/HTML5%20_%20CSS3/M%C3%B3dulo%202/Desafios/d10/site.jpg?raw=true" width='500' alt="Site Android">
 <p><a href="https://carlos09v.github.io/Mini-Projects_Exercises/Web/CursoEmVideo/HTML5%20_%20CSS3/M%C3%B3dulo%202/Desafios/d10/android.html" target="_blank">👉🏽 Veja o site aqui  👈🏽</a></p>
-<img src="https://github.com/carlos09v/Mini-Projects_Exercises/blob/main/Web/CursoEmVideo/HTML5%20_%20CSS3/M%C3%B3dulo%204/Desafios/d13/assets/projeto-redes_sociais.jpg?raw=true" width='500' alt="Site Redes Sociais">
+<img src="https://github.com/carlos09v/Mini-Projects_Exercises/blob/main/Web/CursoEmVideo/HTML5%20_%20CSS3/M%C3%B3dulo%204/Desafios/d13/assets/projeto-social.jpg?raw=true" width='500' alt="Site Redes Sociais">
 <p><a href="https://carlos09v.github.io/Mini-Projects_Exercises/Web/CursoEmVideo/HTML5%20_%20CSS3/Módulo%204/Desafios/d13/index.html" target="_blank">👉🏽 Veja o site aqui  👈🏽</a></p>
 
 <h2>- My exercises</h2>
