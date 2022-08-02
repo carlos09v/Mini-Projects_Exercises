@@ -11,5 +11,6 @@
 <h2>- My exercises</h2>
 <ol>
   <li><a href='https://carlos09v.github.io/Mini-Projects_Exercises/Web/Eu/Nacionalidade/Desafio009.html' target='_blank' rel='next'>Sistema de Nacionalidade</a> - Pergunte ao usuário de onde ele é , e diga a nacionalidade.</li>
-  <li><a href='https://carlos09v.github.io/Mini-Projects_Exercises/Web/Eu/L%C3%A2mpada/index.html' target='_blank' rel='next'>Lâmpada</a> - Coloque a Imagem de uma lâmpada e faça com que ao clicar ou passar o mouse em cima, a lâmpada acenda e ao tirar apague. <a href='https://github.com/carlos09v/Mini-Projects_Exercises/blob/main/Web/Eu/L%C3%A2mpada/lampada-on.jpg' target='_blank' rel='external'>Lâmpada ON</a> - <a href='https://github.com/carlos09v/Mini-Projects_Exercises/blob/main/Web/Eu/L%C3%A2mpada/lampada.jpg' target='_blank' rel='external'>Lâmpada OFF</a></li>
-  </ol>
+  <li><a href='https://carlos09v.github.io/Mini-Projects_Exercises/Web/Eu/L%C3%A2mpada/index.html' rel='next'>Lâmpada</a> - Coloque a Imagem de uma lâmpada e faça com que ao clicar ou passar o mouse em cima, a lâmpada acenda e ao tirar apague. <a href='https://github.com/carlos09v/Mini-Projects_Exercises/blob/main/Web/Eu/L%C3%A2mpada/lampada-on.jpg' target='_blank' rel='external'>Lâmpada ON</a> - <a href='https://github.com/carlos09v/Mini-Projects_Exercises/blob/main/Web/Eu/L%C3%A2mpada/lampada.jpg' target='_blank' rel='external'>Lâmpada OFF</a></li>
+  <li><a href='https://github.com/carlos09v/Mini-Projects_Exercises/tree/main/Web/Eu/Ocean_Parallax' rel='next'>Ocean_Parallax</a> - Um Site Parallax do Fundo do Mar 🐬!</li>
+</ol>
