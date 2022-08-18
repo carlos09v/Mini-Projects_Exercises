@@ -44,6 +44,11 @@ header nav ul {
     gap: 10px;
 }
 
+/* Icones do Font Awesome */
+header nav i {
+    color: white;
+}
+
 header nav ul li a {
     text-decoration: none;
     color: white;
