@@ -1,0 +1,40 @@
+/* Estilo para Telas */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+header nav  li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(78, 77, 77);
+    color: white;
+}
+
+article {
+    width: 600px;
+    margin: auto;
+}
+
+article::after {
+    content: 'Utilize o Ctrl + P para ver a versão de impressora !';
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}

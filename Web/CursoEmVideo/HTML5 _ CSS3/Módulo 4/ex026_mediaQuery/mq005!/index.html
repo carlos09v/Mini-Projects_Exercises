@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/media-query.css">
+
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body onresize="mudouTamanho()">
+    <!-- Pensando no Mobile First -->
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons">menu</span>
+        <nav menu>
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Pensando no Mobile First</h2>
+            <h3>Testando Media Queries</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, in, cum odio est corrupti iste deleniti ad ipsum nihil ducimus perspiciatis hic voluptate? Dicta ipsa expedita, cumque eligendi repudiandae aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis alias quas impedit distinctio magni voluptas consequatur ullam tempore enim, debitis placeat atque velit. Vel fugit ratione sit voluptatibus odio iusto?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim vitae magnam accusamus cumque exercitationem? Sit quaerat, molestias, facere beatae, voluptatum quisquam ex natus nobis dolor fuga labore corporis placeat voluptate.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quam omnis hic consequatur aspernatur corrupti illum sunt accusantium ipsum aliquid sit, illo error nam doloribus quasi quibusdam blanditiis quos odit.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident debitis ullam autem deleniti aliquam iusto exercitationem quae deserunt aut. Provident asperiores corporis quibusdam quo est! Eos aliquam alias pariatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia obcaecati, dolor repudiandae suscipit sit architecto quis in assumenda voluptate, distinctio necessitatibus quos cupiditate minima aliquam molestias corrupti deleniti eaque expedita?</p>
+        </article>
+    </main>
+
+    <script>
+        const nav = document.querySelector('[menu]')
+        const menuClick = document.querySelector('#burguer').onclick = e => {
+            if(nav.style.display == 'block') {
+                nav.style.display = 'none'
+            }else {
+                nav.style.display = 'block'
+            }
+        }
+
+        // Media Query no JS
+        const mudouTamanho = () => {
+            if(window.innerWidth >= 768) {
+                nav.style.display = 'block'
+            }else {
+                nav.style.display = 'none'
+            }
+        }
+    
+    </script>
+    
+</body>
+</html>

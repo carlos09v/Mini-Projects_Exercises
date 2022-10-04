@@ -1,0 +1,71 @@
+/* Typical Device Breakpoints 
+------------------------- 2022
+https://devfacts.com/media-queries-breakpoints-2022/
+
+Pequenas telas: até 320px
+Celular: de 320px até 812px (iPhone X)
+Tablet: de 768px até 1112px (iPad Pro 10)
+Laptop: de 1366px até 1440px
+Desktop: de 1440px até 1920px (1080p displays)
+Grandes Telas: acima de 1920px (Tvs)
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1112px) {
+    /* Para Tablets */
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+
+    section {
+        width: 80vw;
+        display: flex;
+
+        height: 305px;
+    }
+
+    section > div#imagem {
+        width: 30%;
+        height: 100%;
+    }
+
+    section > div#form {
+        width: 70%;
+    }
+
+    div#form > p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (min-width: 1112px) {
+    /* Para dispositivos MAIORES */
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+
+    section {
+        width: 950px;
+        display: flex;
+
+        height: 350px;
+    }
+
+    section > div#imagem {
+        width: 50%;
+        height: 100%;
+        order: 1;
+    }
+
+    section > div#form {
+        width: 50%;
+    }
+
+    div#form > h1 {
+        font-size: 2em;
+    }
+
+    div#form > p {
+        font-size: 1em;
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,10 @@
+Typical Device Breakpoints 
+------------------------- 2022
+https://devfacts.com/media-queries-breakpoints-2022/
+
+Pequenas telas: até 320px
+Celular: de 320px até 812px (iPhone X)
+Tablet: de 768px até 1112px (iPad Pro 10)
+Laptop: de 1366px até 1440px
+Desktop: de 1440px até 1920px (1080p displays)
+Grandes Telas: acima de 1920px (Tvs)
