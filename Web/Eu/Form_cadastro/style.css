@@ -1,0 +1,27 @@
+header{
+  text-align: center;
+  margin: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+section{
+  background: white;
+  border-radius: 10px;
+  padding: 1em;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form input{
+  margin-top: 15px;
+}
+
+input#enviar {
+  margin-left: 75%;
+}

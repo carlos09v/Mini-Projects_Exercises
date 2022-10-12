@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Alunos v1.0</h1>
+  </header>
+  <section>
+    <form action="cadastro.php">
+      <label for="name">Nome Completo :</label>
+      <input type="text" name="name" id="name" required> <br>
+      <label for="sexo">Sexo :</label>
+      <input type="radio" class="sexo">Masculino
+      <input type="radio" class="sexo">Feminino
+      <input type='radio' class="sexo">Indefinido <br>
+      <label for="nasc">Data de Nascimento :</label>
+      <input type="date" id="nasc" required> <br>
+      <label for="rg">RG :</label>
+      <input type="number" placeholder="Ex.: 000000000" id="rg"> <br>
+      <label for="cpf">CPF :</label>
+      <input type="number" placeholder="Ex.: 000.000.000-00" id="cpf"> <br>
+      <label for="email">Email :</label>
+      <input type="email" placeholder="Ex.: digiteseuemail@gmail.com" id="email"> <br>
+      <label for="tel">Tel (DDD) :</label>
+      <input type="tel" placeholder="Ex.: (00) 0000-0000" id="tel"> <br>
+      <label for="cep">CEP :</label>
+      <input type="number" placeholder="Ex.: 00000-000" id="cep"> <br>
+      <input type="reset" value="Limpar" id="clean">
+      <input type="submit" value="Enviar" id="enviar">
+    </form>
+  
+  </section>
+  
+</body>
+</html>
