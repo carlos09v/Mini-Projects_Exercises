@@ -27,10 +27,18 @@ header h1 {
   background-color: white;
 }
 
-h1 {
-  border: 2px solid black;
-  padding: 10px;
-  margin-bottom: 5px;
+header h3 {
+  display: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 3px;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+header h3 span {
+  text-decoration: underline;
 }
 
 main{
@@ -43,8 +51,13 @@ main{
   border-radius: 10px;
   padding: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
-  width: 100%;
-  max-width: 350px;
+  width: 380px;
+}
+
+h1 {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
 main div {
@@ -80,6 +93,32 @@ div img#fruit1 {
   transition: .5s;
 }
 
-.btn:hover {
+.rebir {
+  display: none;
+}
+
+.hack {
+  background-color: #ccc;
+  opacity: .1;
+  width: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.btn.hack:hover {
+  opacity: 1;
+}
+
+.btn.rebir {
+  background-color: green;
+}
+
+.btn.rebir:hover {
+  filter: brightness(1.45);
+  transform: scale(1.1);
+}
+
+.btn.reset:hover {
   background-color: rgb(202, 43, 43)
 }
