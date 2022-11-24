@@ -2,4 +2,8 @@
     main {
         width: 80vw;
     }
+
+    .dataBuy {
+        padding: 8px;
+    }
 }

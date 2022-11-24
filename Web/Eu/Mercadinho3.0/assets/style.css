@@ -78,19 +78,14 @@ form > section {
     font-size: 1rem;
 }
 
-.input-controls > input[type='number'] {
+.input-controls:nth-child(2) > input[type='text'] {
     width: 60%;
-}
-
-.input-controls > input[type='number']::-webkit-outer-spin-button,
-.input-controls > input[type='number']::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
 }
 
 .input-btns {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 1rem;
 }
 
@@ -212,4 +207,48 @@ footer > a {
     color: #333;
     display: block;
     margin: 2rem auto 2px;
+}
+
+.dataBuy {
+    background-color: blanchedalmond;
+    color: red;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 3px;
+    padding: 4px;
+}
+
+.dataBuy > table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 19px;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.dataBuy > button {
+    margin: 4px 0;
+}
+
+.optValue {
+    display: block;
+    margin: 8px auto;
+    width: 70px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.resul span#tot {
+    color: blue;
+}
+
+.resul span#juros {
+    color: red;
+}
+
+.resul span#parcel {
+    color: purple;
 }
