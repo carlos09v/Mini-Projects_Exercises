@@ -66,7 +66,7 @@ function rebir() {
 }
 
 function reset() {
-  countlv = 0
+  countlv = 1
   count = 0
   
   level.innerText = countlv
