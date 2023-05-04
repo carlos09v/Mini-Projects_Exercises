@@ -1,0 +1,30 @@
+= Cadastro ================================
+	- Nome: Jubileu  Mascavo
+	- Matricula: 20230425092430
+	- Notas: [5.0, 6.8, 3.1]
+	- Quantidade de Faltas: 3
+	- Media: 5.0
+= Cadastro ================================
+	- Nome: Marcio Vitor
+	- Matricula: 20230425130122
+	- Notas: [6.0, 3.0, 2.8]
+	- Quantidade de Faltas: 1
+	- Media: 3.9
+= Cadastro ================================
+	- Nome: Lacraia
+	- Matricula: 20230425130125
+	- Notas: [8.0, 0.0, 2.6]
+	- Quantidade de Faltas: 2
+	- Media: 3.5
+= Cadastro ================================
+	- Nome: Silvana Vieira
+	- Matricula: 20230425131345
+	- Notas: [6.0, 0.0, 0.0]
+	- Quantidade de Faltas: 0
+	- Media: 2.0
+= Cadastro ================================
+	- Nome: La Ele
+	- Matricula: 20230425131417
+	- Notas: [8.0, 5.6, 3.0]
+	- Quantidade de Faltas: 5
+	- Media: 5.5

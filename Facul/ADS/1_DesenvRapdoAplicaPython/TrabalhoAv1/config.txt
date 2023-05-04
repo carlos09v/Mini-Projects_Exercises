@@ -1,0 +1,30 @@
+= Configurações ================================
+	- Aluno: Jubileu  Mascavo
+	- Matricula: 20230425092430
+		< Curso escolhido: Gastronomia
+		< Disciplina: Cozinha Nutricional
+		< Professor: Diego Aguiar
+= Configurações ================================
+	- Aluno: Marcio Vitor
+	- Matricula: 20230425130122
+		< Curso escolhido: Medicina
+		< Disciplina: Biologia celular
+		< Professor: Juliette
+= Configurações ================================
+	- Aluno: Lacraia
+	- Matricula: 20230425130125
+		< Curso escolhido: Administração
+		< Disciplina: CONTABILIDADE GERAL
+		< Professor: Diego Aguiar
+= Configurações ================================
+	- Aluno: Silvana Vieira
+	- Matricula: 20230425131345
+		< Curso escolhido: Direito
+		< Disciplina: Direito Civil
+		< Professor: Tarcício do Acordeão
+= Configurações ================================
+	- Aluno: La Ele
+	- Matricula: 20230425131417
+		< Curso escolhido: Administração
+		< Disciplina: PRINCÍPIOS DE GESTÃO
+		< Professor: Michel Teló

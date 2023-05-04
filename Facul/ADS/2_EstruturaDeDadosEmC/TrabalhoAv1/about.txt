@@ -1,0 +1,37 @@
+Fazer um programa, em C, que realize o gerenciamento de notas de alunos da disciplina.
+Neste trabalho, cada aluno deve implementar um sistema simplificado para gestão de alunos 
+de uma disciplina de 45 aulas. O sistema deve armazenar os alunos cadastrados em um VETOR.
+ Os seguintes dados devem ser informados e armazenados sobre cada aluno: 
+  - matrícula do aluno,
+  - três notas do tipo real
+  - e quantidade de faltas do tipo inteiro.
+
+Para isso o aluno deverá fazer uso de structs para definir um vetor desse tipo.
+ E também deve utlizar o conceito (da forma mais adequada) de modularização.
+
+O sistema deve ter as seguintes funcionalidades:
+
+1 – Menu de opções
+- o menu imprime mensagens com opções das funcionalidades descritas abaixo e o usuário 
+selecionará o índice da opção desejada;
+- o menu será apresentado/mostrado sempre que o usuário finalizar uma funcionalidade;
+- o sistema terá final quando o usuário selecionar a opção de “Sair”;
+- opções inválidas devem gerar um alerta de erro;
+
+2 – Cadastrar aluno no vetor
+- cada aluno deve possuir uma matrícula única;
+- um aluno só pode ser cadastrado em um espaço vazio do vetor;
+- alertas de erro devem ser gerados (exemplos: número de alunos maior que
+ o tamanho do vetor, quantidade de faltas maior que o número de aulas, matrículas iguais);
+
+3 – Alterar dados de um aluno do vetor
+- a matrícula deve ser informada;
+- alertas de erro devem ser gerados (exemplos: matrícula não encontrada, vetor vazio);
+
+4 – Listar alunos cadastrados no vetor;
+
+5 – Listar alunos aprovados (média igual ou superior a 6,0 e frequência a partir de 75%)
+
+6 – Listar alunos reprovados por média;
+
+7 – Listar alunos reprovados por faltas (frequência abaixo de 60%);

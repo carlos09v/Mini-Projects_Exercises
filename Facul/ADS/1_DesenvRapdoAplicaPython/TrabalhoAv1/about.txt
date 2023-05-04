@@ -1,0 +1,36 @@
+1. Crie um programa em python que realize o registro acadêmico de uma turma. Para tal, o seguinte menu deve ser exibido e suas funcionalidades implementadas para que os dados sejam persistidos e mantidos e arquivo texto.
+
+Os dados a serem cadastrados dos alunos são:
+
+- Matrícula
+- Nome
+- Nota 1
+- Nota 2
+- Nota 3
+- Quantidade de faltas
+* média
+
+Itens de configuração a serem cadastrados:
+- Nome do professor
+- Nome da disciplina
+- Carga horária da disciplina
+- Ano da disciplina
+
+
+===========================================
+                    MENU
+===========================================
+
+1 - Cadastrar Aluno
+2 - Alterar Aluno
+3 - Buscar Aluno por matrícula (listando todos os dados desse aluno, inclusive a média)
+4 - Relatórios:
+     4.1 - Listar todos os alunos
+     4.2 - Listar alunos aprovados (Critério de aprovação média >= 6,0 e frequência >= 75%)
+     4.3 - Listar alunos reprovados por faltas (frequência < 75%)
+     4.4 - Listar dados completos do aluno de maior média
+     4.5 - Listar dados completos do aluno de menor média
+ 5 - Configurações (nome disciplina, professor, carga horaria, ano da disciplina).
+ 6 - Sair
+
+Obs: Todos os relatorios devem conter em tela o nome do professor e disciplina, ano da disciplina

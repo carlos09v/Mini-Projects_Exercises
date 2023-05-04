@@ -1,7 +1,11 @@
 <h1>Mini-Projects_Exercises</h1>
 <p>Repositório de exercícios de um iniciante!</p>
-<h3>- <a href='https://github.com/carlos09v/Mini-Projects_Exercises/tree/main/Python' target="_self" rel="next">Exercícios Python</a></h3>
+<h3>- <a href='https://github.com/carlos09v/Mini-Projects_Exercises/tree/main/Python' target="_self" rel="next">Exercícios Python 🐍</a></h3>
 <h3>- <a href='https://github.com/carlos09v/Mini-Projects_Exercises/tree/main/Web' target="_self" rel="next">Exercícios Front-End</a></h3>
+<hr>
+
+<h2>< Da Faculdade  👨‍🎓 ></h2>
+<p>- <a href='https://github.com/carlos09v/Mini-Projects_Exercises/tree/main/Facul/ADS' target="_self" rel="next">ADS </a> > (Análise e Desenvolvimento de Sistemas) </p>
 
 <hr>
 <!-- <h2>Ultimo Execício recente - </h2>
