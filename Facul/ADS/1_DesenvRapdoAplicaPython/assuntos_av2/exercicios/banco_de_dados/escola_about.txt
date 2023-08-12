@@ -1,0 +1,11 @@
+Dado o shema do bando de dados escola, vc deve implementar o menu abaixo:
+
+MENU:
+1 - Criar tabelas;
+	Automaticamente criar: tipo_curso, titulo, instituicao, tipo_disciplina
+2 - Permitir Crud das entidades criadas;
+	2.1 - Criar Tipo de curso
+	2.2 - Criar Titulo
+	2.3 - Criar Instituição
+	2.4 - Criar Tipo de Disciplina
+3 - Sair

@@ -1,0 +1,10 @@
+Implemente um sistema hospitalar para controle de pacientes, consultas, médicos e enfermeiros. Nesse sistema deverá ser possível cadastrar cada entidade (Hospital, médico, enfermeiro, paciente). Entende-se como cadastrar a implementação do CRUD para cada um deles. Observe os detalhes ao cadastrar o médico (como por exemplo especialidade e telefone. Observe também as tabelas associativas que serão criadas devido os relacionamentos.
+Para isso será utilizado o modelo lógico a seguir:
+
+Deverá haver um menu com as seguintes opções:
+1..n: Cadastrar e manter Médico, Paciente, Hospital, Especialidade, Enfermeira, Telefone.
+n+1: Relatorios (
+    - Listar todos os médicos, pacientes e hospitais)
+    - Listar pacientes que moram no Centro de Aracaju
+    - Listar médicos e seus telefones
+    - Listar corpo clínico do Hospital
