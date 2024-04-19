@@ -1,0 +1,30 @@
+- Construir uma classe Produto para representar um produto com os
+seguintes dados: nome e preço. Além dos construtores e métodos get e set
+para cada atributo, faça um método para calcular o imposto (
+CalcularImposto() ) e um método para exibir um relatório ( ExibirRelatório()
+), o qual exibe o nome do produto, o preço e o imposto pago.
+
+• O imposto do produto deve ser calculado da seguinte maneira: se o preço
+for menor que R$ 100,00 o imposto é de 5%, se for maior que R$ 100,00 o
+imposto é de 10%
+
+- Faça uma classe ProdutoImportado, que herda as características de
+Produto e tem mais um atributo (tipo) que pode ser 1 (eletrônico), 2
+(alimento) e 3 (outros).
+• Crie os métodos get e set para o atributo tipo e sobrescreva os métodos
+CalcularImposto() e ExibirRelatório().
+• O produto importado tem cobrança de imposto dependente do tipo de
+produto. Se for eletrônico o imposto é de 35%, se for alimentício o imposto
+é de 15% e os demais códigos o imposto é de 20%
+
+- Faça uma classe ListaProdutos que vai guardar um conjunto de produtos num array
+(Produtos[] p) que tem tamanho máximo de 10 elementos. A classe ListaProdutos
+tem os seguintes métodos:
+• ListaProdutos(): construtor para inicializar as variáveis e criar o array de produtos
+• insereProduto(Produto p): insere um produto no array
+• imprimirProdutos(): exibe todos os produtos armazenados separando os produtos
+nacionais dos importados
+
+Faça um application que crie uma instância da lista de produtos e adicione
+produtos nacionais e importados. Ao final imprima o relatório dos
+produtos armazenados
